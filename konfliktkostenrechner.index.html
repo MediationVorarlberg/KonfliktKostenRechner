@@ -444,7 +444,7 @@
       </div>
       <button class="btn-send" onclick="sendFrüh()">Erstgespräch anfragen — kostenlos</button>
       <div class="success-msg" id="successMsgFrüh">
-        ✓ Danke! Ich melde mich bald. — dialog@konsenswerkstatt.eu
+        ✓ Danke! Ich melde mich bald. — anita@konsenswerkstatt.eu
       </div>
     </div>
   </div>
@@ -452,7 +452,7 @@
   <p class="disclaimer">
     Alle Berechnungen sind Richtwerte auf Basis wissenschaftlicher Studien und dienen der Orientierung.<br>
     Sie ersetzen keine individuelle betriebswirtschaftliche Analyse.<br>
-    <a href="mailto:dialog@konsenswerkstatt.eu">dialog@konsenswerkstatt.eu</a> · KonsensWerkstatt
+    <a href="mailto:anita@konsenswerkstatt.eu">anita@konsenswerkstatt.eu</a> · KonsensWerkstatt
   </p>
 
 </main>
@@ -553,7 +553,7 @@ function buildMailto(name, email, firma, tel, nachricht, withResults) {
     if (total && total !== '–') body += `\n\n— KKR-Ergebnis: ${total} geschätzte Konfliktkosten/Jahr`;
   }
   body += '\n\nMit freundlichen Grüßen\n' + name;
-  return `mailto:dialog@konsenswerkstatt.eu?subject=${subj}&body=${encodeURIComponent(body)}`;
+  return `mailto:anita@konsenswerkstatt.eu?subject=${subj}&body=${encodeURIComponent(body)}`;
 }
 
 function sendAnfrage() {
